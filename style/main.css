@@ -1,0 +1,197 @@
+:root {
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Elements */
+
+header {
+  background: var(--preto);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+body {
+  background: var(--preto);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+header .container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: 'Arial', Times;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+a, span {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* Main Game */
+.main-game {
+  font-size: 16px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-game-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/rpg1-wp.jpg');
+  background-size: cover;
+}
+
+.portal-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/adventure1-wp.jpg');
+  background-size: cover;
+}
+
+.crash-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/adventure2-wp.jpg');
+  background-size: cover;
+}
+
+.dust-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/adventure3-wp.jpg');
+  background-size: cover;
+}
+
+.ori-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/adventure4-wp.jpg');
+  background-size: cover;
+}
+
+.legendofmana-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/adventure5-wp.jpg');
+  background-size: cover;
+}
+
+.childoflight-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/rpg1-wp.jpg');
+  background-size: cover;
+}
+
+.ffx-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/rpg2-wp.jpg');
+  background-size: cover;
+}
+
+.tos-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/rpg3-wp.jpg');
+  background-size: cover;
+}
+
+.skyrim-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/rpg4-wp.jpg');
+  background-size: cover;
+}
+
+.witcher-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/rpg5-wp.jpg');
+  background-size: cover;
+}
+
+.omd2-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/strategy1-wp.jpg');
+  background-size: cover;
+}
+
+.aoe3-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/strategy2-wp.jpg');
+  background-size: cover;
+}
+
+.pvz-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/strategy3-wp.jpg');
+  background-size: cover;
+}
+
+.valianthearts-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/strategy4-wp.jpg');
+  background-size: cover;
+}
+
+.xcom2-wp {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/strategy5-wp.jpg');
+  background-size: cover;
+}
+
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.title {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button {
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button i {
+  margin-right: 5px;
+}
+
+.container {
+  margin-left: 20px;
+  width: 60%;
+}
+
+.game-box {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carousel-title {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+footer .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+}
