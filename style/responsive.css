@@ -4,12 +4,6 @@
     flex-direction: column;
   }
 
-  .button {
-    margin-top: 5px;
-    width: 190px;
-    height: 60px;
-  }
-
   .description {
     margin-bottom: 20px;
   }
@@ -22,10 +16,5 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .description {
-    width: 70%;
-  }
-}
 
 
