@@ -4,14 +4,15 @@
     flex-direction: column;
   }
 
-  .button {
-    margin-top: 5px;
-    width: 190px;
-    height: 60px;
+  .description {
+    margin-bottom: 20px;
   }
 
-  .description {
-    margin-bottom: 60px;
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
   }
 }
 
